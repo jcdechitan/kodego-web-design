@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 200vh;
+        font-family: "Montserrat", sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: #f0f0f0;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #0b3954;
+        font-size: larger;
+        position: relative;
+        align-items: center;
+      }
+      nav.LeftNav {
+        display: flex;
+        margin-left: 100px;
+      }
+      .Logo,
+      .box1,
+      .Log {
+        padding: 2rem;
+      }
+      nav.box1 {
+        margin-left: 100px;
+      }
+      nav.Log {
+        margin-right: 100px;
+      }
+      nav a {
+        margin-right: 30px;
+      }
+      .Logo {
+        margin-left: 100px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f0f0f0;
+      }
+      #Sign {
+        background-color: #9d5691;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      section img {
+        position: absolute;
+        margin-right: 0;
+
+        right: 0;
+      }
+      div.Homedisplay {
+        display: flex;
+        align-items: center;
+        padding: 50px;
+      }
+      #Flower {
+        height: 700px;
+        margin: 100px;
+        top: 120px;
+        right: 50px;
+      }
+      .display {
+        margin: 100px;
+        top: 120px;
+        left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="LeftNav">
+        <nav class="Logo">Logo</nav>
+        <nav class="box1">
+          <a href="Home">Home</a>
+          <a href="About">About</a>
+          <a href="Shop">Shop</a>
+          <a href="Contact">Contact Us</a>
+        </nav>
+      </nav>
+      <nav class="Log">
+        <a href="Login">Login</a>
+        <a id="Sign" href="Signup">Sign Up</a>
+      </nav>
+    </header>
+    <section class="SecDisplay">
+      <img src="./home-hero-vector.png" alt="" />
+      <div class="Homedisplay">
+        <div class="display">
+          <h1>Blossom Online: Where Every Petal Tells a Story.</h1>
+          <p>
+            You ‘can’t buy happiness, but you can buy flowers which is pretty
+            much the same thing.
+          </p>
+          <a id="Shop" href="Shop">Shop Now</a>
+        </div>
+        <img id="Flower" src="./flower.png" alt="" />
+      </div>
+    </section>
+  </body>
+</html>
